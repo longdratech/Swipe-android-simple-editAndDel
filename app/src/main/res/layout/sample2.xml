@@ -10,22 +10,22 @@
         android:tag="Bottom2">
 
         <ImageButton
-            android:src="@drawable/ic_edit"
             android:id="@+id/edit"
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:background="#4cd964"
             android:paddingLeft="25dp"
-            android:paddingRight="25dp" />
+            android:paddingRight="25dp"
+            android:src="@drawable/ic_edit" />
 
         <ImageButton
-            android:src="@drawable/ic_trash"
             android:id="@+id/trash"
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:background="#FF3B30"
             android:paddingLeft="25dp"
-            android:paddingRight="25dp" />
+            android:paddingRight="25dp"
+            android:src="@drawable/ic_trash" />
     </LinearLayout>
 
     <LinearLayout
@@ -39,6 +39,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:tag="Hover"
-            android:text="sample 2" />
+            android:text="Có người yêu chưa, sao mỗi lúc tan ca chẳng thấy ai đón đưa.
+Phải chăng là chưa tìm được ai giống như e muốn chọn lựa.
+Một người ngọt ngào tựa cơn mưa, yêu thương trọn vẹn như câu hứa
+Mãi bên cạnh em sẽ chẳng khi nao dối lừa.
+Kiếm tìm lâu nay, tình yêu dấu chôn trong giấc mơ say
+Có đâu nào hay ngoài kia đâu có mấy ai giống như vậy
+Rồi khi mộng tàn thanh xuân phai, bấy lâu chọn lựa chẳng thấy ai
+Tóc xõa ôm bờ vai gầy tháng năm phôi phai." />
+
+        <Button
+            android:id="@+id/click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:visibility="invisible" />
     </LinearLayout>
 </com.daimajia.swipe.SwipeLayout>
